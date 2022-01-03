@@ -1,0 +1,29 @@
+<svg id="fox" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <rect id="right-leg" x="406.87" y="569.64" width="70.68" height="165.96" rx="35.34" style="fill: #de6036"/>
+  <rect id="left-leg" x="523.62" y="569.64" width="70.68" height="165.96" rx="35.34" style="fill: #de6036"/>
+  <rect id="left-hand-upper" x="546.53" y="353.5" width="153.25" height="60.24" rx="30.12" transform="translate(44.12 -63.82) rotate(6.08)" style="fill: #de6036"/>
+  <rect id="right-hand-upper" x="294.75" y="379.97" width="159.62" height="60.24" rx="30.12" transform="translate(-142 206.04) rotate(-26.04)" style="fill: #de6036"/>
+  <g id="tail">
+    <path id="tail_base" data-name="tail base" d="M505.38,566.13c-40.75,13.68-7.24,174.63-44.57,246.51C412.5,896.41,409.62,1007.22,572,990.35c0,0-38.27-59.7-37.7-105.78a43.12,43.12,0,0,0,28.33,25.37s-27.13-61.49-35.07-102.32c0,0-9.64-76.7-6.84-136.14C520.67,671.48,532.25,567,505.38,566.13Z" style="fill: #de5f35"/>
+    <path id="tail_pattern" data-name="tail pattern" d="M445.34,843.93l22.5-17.63-4.45,41,24.67-29.65S506,865.11,510.9,865.27c0,0,4.85-25.81,7.63-28.85,0,0,16.94,15.7,22.68,18.12,0,0,24.14,56.92,23.65,58.24,0,0-24.42-5.39-29.62-24.81,0,0-1.92,19.87,39.62,104.65,0,0-140.91,25.94-146.2-88.8C428.66,903.82,426.76,866.28,445.34,843.93Z" style="fill: #fff7e4"/>
+  </g>
+  <g id="body">
+    <path id="body_base" data-name="body base" d="M592.51,611.69c-10.14,28.93-157.89,19.24-157.89,19.24a30.88,30.88,0,0,1-30.88-30.88V342.4H583.26S606.82,536.84,592.51,611.69Z" style="fill: #de5e34"/>
+    <rect id="body_pattern" data-name="body pattern" x="459.8" y="380.57" width="98.71" height="216.8" rx="30.48" style="fill: #fff7e4"/>
+  </g>
+  <g id="head">
+    <path id="head_base" data-name="head base" d="M236.83,12S359.4,29.91,485.54,129.67c0,0,88.57-34,76.94-124.81,0,0,8,.9,19.68,25.05V12s55.92,68.89,59.05,223.66c0,0,4.92,5.82,7.61,34.45,0,0,30.86,7.6,40.7,19.68a49,49,0,0,1-18.64,11.63s3.88,3.28,22.22,4c0,0-64.41,68-184.3,69.34,0,0-139.56,5.37-236.19-78.73a53,53,0,0,0,25.73-3.35s-16.11-2.91-24.38-8.5c0,0,12.07-16.55,41.6-25.05,0,0,.67-17.9,4.47-30.2,0,0-28.63-119.88-83.2-195.93,0,0,10.66-.37,25,5.67C261.88,38.71,255,27.68,236.83,12Z" style="fill: #de5f35"/>
+    <path id="head_lower" data-name="head lower" d="M594.24,330s20.58-41.75,68.44-24.45c0,0,0,56.75-136.73,68.88,0,0-120.7,10.46-159.84-48.31C366.11,326.09,421.13,261.53,594.24,330Z" style="fill: #fff7e4"/>
+    <path id="nose" d="M575.24,328.69a2.07,2.07,0,0,1-.23-2.54c1.6-2.48,6.44-7.13,20.35-7.31,0,0,14.77-.28,19.8,7.63a2.08,2.08,0,0,1,0,2.25,52,52,0,0,1-16.86,15.64,2.08,2.08,0,0,1-1.67.21C594.08,343.81,586.44,340.7,575.24,328.69Z" style="fill: #231f20"/>
+    <circle id="right_eye" data-name="right eye" cx="447.02" cy="270.29" r="24.77" style="fill: #221f1f"/>
+    <circle id="left_eye" data-name="left eye" cx="586.36" cy="270.29" r="24.77" style="fill: #221f1f"/>
+    <rect id="left_eyebrow" data-name="left eyebrow" x="410.84" y="200.18" width="84.46" height="33.17" rx="16.59" transform="translate(43.59 -74.08) rotate(9.82)" style="fill: #fff7e4"/>
+    <rect id="right_eyebrow" data-name="right eyebrow" x="544.13" y="200.92" width="84.46" height="33.17" rx="16.59" transform="translate(-27.8 99.47) rotate(-9.47)" style="fill: #fff7e4"/>
+  </g>
+  <g id="clock">
+    <rect id="clock-base" x="321.95" y="434.58" width="365.82" height="110.73" rx="30.44" transform="translate(-57.23 66.88) rotate(-7.17)" style="opacity: 0.7000000000000001"/>
+    <text id="clock-text" transform="translate(341.4 534.8) rotate(-7.17)" style="font-size: 71.15160369873047px;fill: #42c17f;font-family: Rubik-Bold, Rubik;font-weight: 700">00:00:00</text>
+  </g>
+  <rect id="right-hand-lower" x="238.22" y="454.85" width="153.25" height="60.24" rx="30.12" transform="translate(-237.41 656.28) rotate(-74.24)" style="fill: #de6036"/>
+  <rect id="left-hand-lower" x="603.53" y="406.94" width="159.62" height="60.24" rx="30.12" transform="translate(458.31 1216.38) rotate(-106.5)" style="fill: #de6036"/>
+</svg>

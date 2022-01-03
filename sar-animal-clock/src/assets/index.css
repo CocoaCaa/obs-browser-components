@@ -1,0 +1,71 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+svg {
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
+#tail {
+  transform-origin: 525px 561px;
+  animation: tail 1s ease-in-out infinite;
+}
+
+#right-leg {
+  transform-origin: 411px 593px;
+  animation: right-leg 2s ease-in-out infinite;
+}
+
+#left-leg {
+  transform-origin: 583px 600px;
+  animation: left-leg 2s ease-in-out infinite;
+}
+
+#clock-text {
+    font-family: Rubik-Bold, Rubik, Tahoma-Bold, Tahoma, sans-serif !important;
+}
+
+@keyframes tail {
+  0% {
+    transform: rotate(20deg);
+  }
+
+  50% {
+    transform: rotate(-20deg);
+  }
+
+  100% {
+    transform: rotate(20deg);
+  }
+}
+
+@keyframes right-leg {
+  0% {
+    transform: rotate(40deg);
+  }
+
+  50% {
+    transform: rotate(-10deg);
+  }
+
+  100% {
+    transform: rotate(40deg);
+  }
+}
+
+@keyframes left-leg {
+    0% {
+      transform: rotate(-40deg);
+    }
+  
+    50% {
+      transform: rotate(10deg);
+    }
+  
+    100% {
+      transform: rotate(-40deg);
+    }
+  }
