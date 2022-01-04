@@ -24,6 +24,14 @@ svg {
   animation: left-leg 2s ease-in-out infinite;
 }
 
+#skullcat #right-leg {
+  transform-origin: 450px 622px;
+}
+
+#skullcat #left-leg {
+  transform-origin: 548px 620px;
+}
+
 #clock-text {
     font-family: Rubik-Bold, Rubik, Tahoma-Bold, Tahoma, sans-serif !important;
 }

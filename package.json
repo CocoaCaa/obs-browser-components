@@ -1,0 +1,10 @@
+{
+  "name": "obs-browser-components",
+  "packageManager": "yarn@3.1.1",
+  "scripts": {
+    "serve": "serve ./docs"
+  },
+  "devDependencies": {
+    "serve": "^13.0.2"
+  }
+}
