@@ -1,6 +1,7 @@
 {
   "name": "sar-animal-clock",
   "packageManager": "yarn@3.1.1",
+  "license": "MIT",
   "scripts": {
     "build": "rollup --config",
     "watch": "rollup --config --watch"
