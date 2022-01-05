@@ -25,13 +25,13 @@ https://obs-browser-components.cocoacaa.com/sar-animal-clock/?animal=deer
 
 - - -
 
-## WHere is the vector animals image comes from?
+## Where is the vector animals image comes from?
 
 I have to redraw the animals in vector image references from the game, for make it clean in any resolution.
 
 ![Redraw animal in vector](docs/vector-animal-in-adobe-ai.png)
 
-And export all to SVG format (They are in [src/assets](src/assets))
+And export all to SVG format (They are in [public/animals](public/animals))
 
 ## Disclaimer
 
