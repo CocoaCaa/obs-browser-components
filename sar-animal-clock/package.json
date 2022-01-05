@@ -1,6 +1,7 @@
 {
   "name": "sar-animal-clock",
   "packageManager": "yarn@3.1.1",
+  "author": "CocoaCaa (https://twitter.com/cocoa_caa)",
   "license": "MIT",
   "scripts": {
     "build": "rollup --config",
