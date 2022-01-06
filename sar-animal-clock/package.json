@@ -6,23 +6,33 @@
   "homepage": "https://obs-browser-components.cocoacaa.com/",
   "scripts": {
     "build": "rollup --config",
-    "watch": "rollup --config --watch"
+    "watch": "TS_NODE_PROJECT=\"./build/tsconfig-for-webpack-config.json\" webpack --config ./build/webpack.config.ts --watch",
+    "min-svg": "svgo -i ./public/animals/*.svg -o ./public/animals/"
   },
   "devDependencies": {
-    "@rollup/plugin-node-resolve": "^13.1.2",
-    "@rollup/plugin-typescript": "^8.3.0",
-    "@sebastianspeitel/rollup-plugin-assets": "^0.2.0",
     "@types/date-fns": "^2.6.0",
-    "@web/rollup-plugin-copy": "^0.3.0",
-    "@web/rollup-plugin-html": "^1.10.1",
+    "@types/html-webpack-plugin": "^3.2.6",
+    "@types/react-dev-utils": "^9.0.10",
+    "@types/webpack": "^5.28.0",
+    "css-loader": "^6.5.1",
     "cssnano": "^5.0.14",
     "date-fns": "^2.28.0",
+    "html-inline-script-webpack-plugin": "^2.0.3",
+    "html-webpack-inline-svg-plugin": "^2.3.0",
+    "html-webpack-plugin": "^5.5.0",
     "postcss": "^8.4.5",
-    "rollup": "^2.62.0",
-    "rollup-plugin-import-css": "^3.0.2",
-    "rollup-plugin-postcss": "^4.0.2",
-    "rollup-plugin-terser": "^7.0.2",
+    "postcss-loader": "^6.2.1",
+    "react-dev-utils": "^12.0.0",
+    "remove-files-webpack-plugin": "^1.5.0",
+    "style-loader": "^3.3.1",
+    "svgo": "^2.8.0",
+    "terser-webpack-plugin": "^5.3.0",
+    "ts-loader": "^9.2.6",
+    "ts-node": "^10.4.0",
+    "tsconfig-paths": "^3.12.0",
     "tslib": "^2.3.1",
-    "typescript": "^4.5.4"
+    "typescript": "^4.5.4",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
   }
 }
