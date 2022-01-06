@@ -1,6 +1,5 @@
-import { format } from 'date-fns';
+import { lightFormat } from 'date-fns';
 import './assets/index.css';
-import { createElementFromHtml } from './utils';
 
 const AVAILABLE_ANIMALS = ['fox', 'skullcat', 'deer'];
 
@@ -14,8 +13,13 @@ async function main() {
     )}`;
     document.body.appendChild(errorMessageElement);
   }
-  const animalResponse = await fetch(`animals/${animal}.svg`);
-  document.body.appendChild(createElementFromHtml(await animalResponse.text()));
+
+  document.querySelectorAll('#animales > svg').forEach((svg) => {
+    if (svg.id === animal) {
+      return;
+    }
+    svg.remove();
+  });
   const clockTextElement = document.querySelector<SVGTextElement>('text#clock-text');
 
   function tick() {
@@ -24,7 +28,7 @@ async function main() {
     }
 
     const currentTime = new Date();
-    clockTextElement.textContent = `${format(currentTime, 'hh:mm a')}`;
+    clockTextElement.textContent = `${lightFormat(currentTime, 'hh:mm a')}`;
   }
 
   setInterval(tick, 1000);
