@@ -51,6 +51,26 @@ svg {
   transform-origin: 367px 316px;
 }
 
+#sunnyaan #right-leg, #sunnyaan-chonk #right-leg {
+  transform-origin: 450px 622px;
+  animation-name: right-leg-sunnyaan;
+}
+
+#sunnyaan #left-leg, #sunnyaan-chonk #left-leg {
+  transform-origin: 548px 620px;
+  animation-name: left-leg-sunnyaan;
+}
+
+#sunnyaan #left-ear, #sunnyaan-chonk #left-ear {
+  animation: deer-right-ear 2s ease-in-out infinite;
+  transform-origin: 555px 303px;
+}
+
+#sunnyaan #right-ear, #sunnyaan-chonk #right-ear {
+  animation: deer-left-ear 2s ease-in-out infinite;
+  transform-origin: 447px 289px;
+}
+
 #clock-text {
   font-family: Rubik-Bold, Rubik, Tahoma-Bold, Tahoma, sans-serif !important;
 }
@@ -154,5 +174,33 @@ svg {
 
   100% {
     transform: rotate(0deg);
+  }
+}
+
+@keyframes right-leg-sunnyaan {
+  0% {
+    transform: rotate(14deg);
+  }
+
+  50% {
+    transform: rotate(-10deg);
+  }
+
+  100% {
+    transform: rotate(14deg);
+  }
+}
+
+@keyframes left-leg-sunnyaan {
+  0% {
+    transform: rotate(-16deg);
+  }
+
+  50% {
+    transform: rotate(10deg);
+  }
+
+  100% {
+    transform: rotate(-16deg);
   }
 }
