@@ -51,11 +51,13 @@ svg {
   transform-origin: 367px 316px;
 }
 
-#scarthewerewolf #right-leg {
+#scarthewerewolf #right-leg,
+#cheonsa #right-leg {
   transform-origin: 445px 625px;
 }
 
-#scarthewerewolf #left-leg {
+#scarthewerewolf #left-leg,
+#cheonsa #left-leg {
   transform-origin: 566px 620px;
 }
 
@@ -67,6 +69,10 @@ svg {
 #scarthewerewolf #right-ear {
   animation: deer-left-ear 2s ease-in-out infinite;
   transform-origin: 496px 257px;
+}
+
+#cheonsa #hat {
+  animation: cheonsa-hat 2s ease-in-out infinite;
 }
 
 #clock-text {
@@ -172,5 +178,19 @@ svg {
 
   100% {
     transform: rotate(0deg);
+  }
+}
+
+@keyframes cheonsa-hat {
+  0% {
+    transform: translateY(30px);
+  }
+
+  50% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(30px);
   }
 }

@@ -1,7 +1,7 @@
 import { lightFormat } from 'date-fns';
 import './assets/index.css';
 
-const AVAILABLE_ANIMALS = ['fox', 'skullcat', 'deer', 'scarthewerewolf'];
+const AVAILABLE_ANIMALS = ['fox', 'skullcat', 'deer', 'scarthewerewolf', 'cheonsa'];
 
 async function main() {
   const urlSearchParams = new URLSearchParams(window.location.search);
