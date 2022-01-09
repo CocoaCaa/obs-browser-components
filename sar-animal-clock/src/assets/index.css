@@ -51,6 +51,24 @@ svg {
   transform-origin: 367px 316px;
 }
 
+#scarthewerewolf #right-leg {
+  transform-origin: 445px 625px;
+}
+
+#scarthewerewolf #left-leg {
+  transform-origin: 566px 620px;
+}
+
+#scarthewerewolf #left-ear {
+  animation: deer-right-ear 2s ease-in-out infinite;
+  transform-origin: 560px 252px;
+}
+
+#scarthewerewolf #right-ear {
+  animation: deer-left-ear 2s ease-in-out infinite;
+  transform-origin: 496px 257px;
+}
+
 #clock-text {
   font-family: Rubik-Bold, Rubik, Tahoma-Bold, Tahoma, sans-serif !important;
 }
