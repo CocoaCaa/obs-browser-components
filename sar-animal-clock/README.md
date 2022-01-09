@@ -1,38 +1,37 @@
 # sar-animal-clock
 
-A HTML Clock in Super Animal Royale styles
+Super Animal Clock Widget
+
+A Super Animal Royale-styled HTML Clock
 
 ![Demo video](docs/sar-animal-clock-demo.gif)
 
-Full demo video: [https://youtu.be/myGBRD8zZD8](https://youtu.be/myGBRD8zZD8)
+Check out the full demo video here: https://youtu.be/myGBRD8zZD8
 
-## Usage
+## Installation
 
 - Open [OBS (Open Broadcaster Software)](https://obsproject.com/)
-- On the sources, add a new "Browser source"
-- On the browser source dialog, URL put in the following URL:
+- Under the Sources box, click "+" and add "Browser Source"
+- On the Browser Source pop-up, enter the following URL:
   https://obs-browser-components.cocoacaa.com/sar-animal-clock/
-- Click "OK", and now you will see the cute clock in the scene!
+- Click "OK" and the cute clock should appear in the screen now!
 
-## Options
+## Variations
 
 `animal=<value>`
 
 Values: `fox`, `skullcat`, `deer`
 
-Example
-https://obs-browser-components.cocoacaa.com/sar-animal-clock/?animal=deer
+For example: https://obs-browser-components.cocoacaa.com/sar-animal-clock/?animal=deer
 
 - - -
 
-## Where is the vector animals image comes from?
+## Art Details
 
-I have to redraw the animals in vector image references from the game, for make it clean in any resolution.
+I redraw the animals vector images from the game to ensure that it appears cleanly in any resolution. Afterwarsd, I export it to SVG format (found in [public/animals](public/animals))
 
 ![Redraw animal in vector](docs/vector-animal-in-adobe-ai.png)
 
-And export all to SVG format (They are in [public/animals](public/animals))
-
 ## Disclaimer
 
-Super Animal Royale is copyright Pixile, Inc and is not affiliated with this project.
+Super Animal Royale is under copyright by Pixile, Inc and is not affilaited with this project.
