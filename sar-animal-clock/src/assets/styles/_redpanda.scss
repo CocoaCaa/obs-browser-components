@@ -1,0 +1,16 @@
+@include ear-animation(left-ear-deer, 0, -15deg);
+
+[id^="redpanda"] {
+  #right-leg {
+    transform-origin: 445px 625px;
+  }
+
+  #left-leg {
+    transform-origin: 566px 620px;
+  }
+
+  #left-ear {
+    animation: left-ear-deer 2s ease-in-out infinite;
+    transform-origin: 640px 237px;
+  }
+}

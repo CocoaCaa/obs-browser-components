@@ -1,7 +1,25 @@
 import { lightFormat } from 'date-fns';
 import './assets/styles/index.scss';
 
-const AVAILABLE_ANIMALS = ['fox', 'skullcat', 'deer'];
+const AVAILABLE_ANIMALS = [
+  'fox',
+  'skullcat',
+  'deer',
+  'deer-banana',
+  'deer-blue',
+  'deer-mint',
+  'deer-pink',
+  'deer-rudolph',
+  'deer-shadow',
+
+  'redpanda',
+  'redpanda-berry',
+  'redpanda-bubblegum',
+  'redpanda-licorice',
+  'redpanda-lime',
+  'redpanda-mango',
+  'redpanda-pastel',
+];
 
 async function main() {
   const urlSearchParams = new URLSearchParams(window.location.search);
