@@ -23,7 +23,7 @@ const AVAILABLE_ANIMALS = [
 
 async function main() {
   const urlSearchParams = new URLSearchParams(window.location.search);
-  const animal = urlSearchParams.get('animal') ?? 'fox';
+  const animal = urlSearchParams.get('animal')?.toLowerCase() ?? 'fox';
   if (!AVAILABLE_ANIMALS.includes(animal)) {
     const errorMessageElement = document.createElement('div');
     errorMessageElement.textContent = `Animal "${animal}" not found. Available animals: ${AVAILABLE_ANIMALS.join(
