@@ -1,0 +1,18 @@
+#tail {
+  transform-origin: 525px 561px;
+  animation: tail 1s ease-in-out infinite;
+}
+
+#right-leg {
+  transform-origin: 411px 593px;
+  animation: right-leg 2s ease-in-out infinite;
+}
+
+#left-leg {
+  transform-origin: 583px 600px;
+  animation: left-leg 2s ease-in-out infinite;
+}
+
+#clock-text {
+  font-family: Rubik-Bold, Rubik, Tahoma-Bold, Tahoma, sans-serif !important;
+}
