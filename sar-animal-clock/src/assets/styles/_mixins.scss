@@ -1,0 +1,47 @@
+@mixin ping-pong-animation($name, $startDeg, $endDeg) {
+  @keyframes #{$name} {
+    0% {
+      transform: rotate($startDeg);
+    }
+
+    50% {
+      transform: rotate($endDeg);
+    }
+
+    100% {
+      transform: rotate($startDeg);
+    }
+  }
+}
+
+@mixin ear-animation($name, $startDeg, $endDeg) {
+  @keyframes #{$name} {
+    0% {
+      transform: rotate($startDeg);
+    }
+
+    5% {
+      transform: rotate($endDeg);
+    }
+
+    10% {
+      transform: rotate($startDeg);
+    }
+
+    15% {
+      transform: rotate($startDeg);
+    }
+
+    20% {
+      transform: rotate($endDeg);
+    }
+
+    25% {
+      transform: rotate($startDeg);
+    }
+
+    100% {
+      transform: rotate($startDeg);
+    }
+  }
+}

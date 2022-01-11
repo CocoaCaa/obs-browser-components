@@ -1,5 +1,5 @@
 import { lightFormat } from 'date-fns';
-import './assets/index.css';
+import './assets/styles/index.scss';
 
 const AVAILABLE_ANIMALS = ['fox', 'skullcat', 'deer'];
 

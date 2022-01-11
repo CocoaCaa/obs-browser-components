@@ -5,6 +5,8 @@
     "serve": "serve ./docs"
   },
   "devDependencies": {
+    "sass": "^1.47.0",
+    "sass-loader": "^12.4.0",
     "serve": "^13.0.2"
   }
 }
