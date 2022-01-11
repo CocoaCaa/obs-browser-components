@@ -34,21 +34,21 @@ svg {
 }
 
 #deer #right-leg {
-  transform-origin: 451px 837px;
+  transform-origin: 445px 677px;;
 }
 
 #deer #left-leg {
-  transform-origin: 580px 835px;
+  transform-origin: 549px 672px;
 }
 
 #deer #left-ear {
   animation: deer-left-ear 2s ease-in-out infinite;
-  transform-origin: 679px 316px;
+  transform-origin: 640px 237px;
 }
 
 #deer #right-ear {
   animation: deer-right-ear 2s ease-in-out infinite;
-  transform-origin: 367px 316px;
+  transform-origin: 400px 225px;
 }
 
 #clock-text {
