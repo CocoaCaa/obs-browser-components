@@ -1,0 +1,22 @@
+@include ear-animation(left-ear-fluffubsheepub, 0, -20deg);
+@include ear-animation(right-ear-fluffubsheepub, 0, 25deg);
+
+[id^="fluffubsheepub"] {
+  #right-leg {
+    transform-origin: 445px 677px;
+  }
+
+  #left-leg {
+    transform-origin: 549px 672px;
+  }
+
+  #left-ear {
+    animation: left-ear-fluffubsheepub 2s ease-in-out infinite;
+    transform-origin: 637px 303px;
+  }
+
+  #right-ear {
+    animation: right-ear-fluffubsheepub 2s ease-in-out infinite;
+    transform-origin: 326px 328px;
+  }
+}

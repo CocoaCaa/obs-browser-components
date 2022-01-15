@@ -19,11 +19,13 @@ const AVAILABLE_ANIMALS = [
   'redpanda-lime',
   'redpanda-mango',
   'redpanda-pastel',
+
+  'fluffubsheepub',
 ];
 
 async function main() {
   const urlSearchParams = new URLSearchParams(window.location.search);
-  const animal = urlSearchParams.get('animal')?.toLowerCase() ?? 'fox';
+  const animal = urlSearchParams.get('animal')?.toLowerCase() ?? 'fluffubsheepub';
   if (!AVAILABLE_ANIMALS.includes(animal)) {
     const errorMessageElement = document.createElement('div');
     errorMessageElement.innerHTML = `Animal "${animal}" not found. Available animals: ${AVAILABLE_ANIMALS.map(
