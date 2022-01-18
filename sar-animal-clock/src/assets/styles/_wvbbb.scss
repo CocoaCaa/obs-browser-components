@@ -1,0 +1,56 @@
+@include ping-pong-animation(tail-wvbbb, 25deg, -25deg);
+
+[id="wvbbb"] {
+  #tail {
+    transform-origin: 487px 575px;
+    animation: tail-wvbbb 1s ease-in-out infinite;
+  }
+
+  #right-leg {
+    transform-origin: 432px 631px;
+  }
+
+  #left-leg {
+    transform-origin: 553px 626px;
+  }
+  
+  #tealeaf {
+    transform-origin: 0px 443px;
+    animation: wvbbb-tealeaf 3s ease-in-out infinite;
+  }
+  
+  @keyframes wvbbb-tealeaf {
+    0% {
+      transform: scaleY(1);
+    }
+
+    50% {
+      transform: scaleY(0.9);
+    }
+
+    100% {
+      transform: scaleY(1);
+    }
+  }
+
+  @for $i from 1 through 16 {
+    #boba-#{$i} {
+      animation: wvbbb-boba-#{$i} 1s ease-in-out infinite;
+      animation-delay: random(2000) + ms;
+    }
+
+    @keyframes wvbbb-boba-#{$i} {
+      0% {
+        transform: translateY(0);
+      }
+
+      50% {
+        transform: translateY(random(18) - 9 + px);
+      }
+
+      100% {
+        transform: translateY(0);
+      }
+    }
+  }
+}

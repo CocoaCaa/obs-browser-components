@@ -19,6 +19,8 @@ const AVAILABLE_ANIMALS = [
   'redpanda-lime',
   'redpanda-mango',
   'redpanda-pastel',
+
+  'wvbbb',
 ];
 
 async function main() {
