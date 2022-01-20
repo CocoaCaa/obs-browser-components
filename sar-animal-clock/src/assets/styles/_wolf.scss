@@ -1,0 +1,22 @@
+@include ear-animation(left-ear-wolf, 0, 20deg);
+@include ear-animation(right-ear-wolf, 0, -20deg);
+
+[id^="wolf"] {
+  #right-leg {
+    transform-origin: 434px 576px;
+  }
+
+  #left-leg {
+    transform-origin: 523px 587px;
+  }
+
+  #left-ear {
+    animation: left-ear-dog-pomeranian 2s ease-in-out infinite;
+    transform-origin: 558px 176px;
+  }
+
+  #right-ear {
+    animation: right-ear-dog-pomeranian 2s ease-in-out infinite;
+    transform-origin: 400px 225px;
+  }
+}
