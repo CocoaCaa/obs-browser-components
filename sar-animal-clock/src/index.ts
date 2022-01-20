@@ -21,6 +21,7 @@ const AVAILABLE_ANIMALS = [
   'redpanda-pastel',
 
   'dog-pomeranian',
+  'wolf',
 ];
 
 async function main() {
