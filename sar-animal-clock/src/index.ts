@@ -42,7 +42,7 @@ async function main() {
   const animal = urlSearchParams.get('animal')?.toLowerCase() ?? 'fox';
   if (!AVAILABLE_ANIMALS.includes(animal)) {
     const errorMessageElement = document.createElement('div');
-    errorMessageElement.innerHTML = `Animal "${animal}" not found. Available animals: ${AVAILABLE_ANIMALS.map(
+    errorMessageElement.innerHTML = `Animal "${animal}" not found. Available animals names: ${AVAILABLE_ANIMALS.map(
       (v) => `<a href="?animal=${v}"><code>${v}</code></a>`,
     ).join(', ')}`;
     document.body.appendChild(errorMessageElement);
