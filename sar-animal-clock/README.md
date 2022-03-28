@@ -20,7 +20,7 @@ Check out the full demo video here: https://youtu.be/myGBRD8zZD8
 
 `animal=<value>`
 
-Values: `fox`, `skullcat`, `deer`, `deer-banana`, `deer-blue`, `deer-mint`, `deer-pink`, `deer-rudolph`, `deer-shadow`, `redpanda`, `redpanda-berry`, `redpanda-bubblegum`, `redpanda-licorice`, `redpanda-lime`, `redpanda-mango`, `redpanda-pastel`,
+Please go to [here](https://obs-browser-components.cocoacaa.com/sar-animal-clock/?animal) for the full list
 
 For example: https://obs-browser-components.cocoacaa.com/sar-animal-clock/?animal=deer
 
