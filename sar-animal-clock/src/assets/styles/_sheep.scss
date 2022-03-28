@@ -1,0 +1,22 @@
+@include ear-animation(left-ear-sheep, 0, -20deg);
+@include ear-animation(right-ear-sheep, 0, 25deg);
+
+[id^="sheep"] {
+  #right-leg {
+    transform-origin: 449px 624px;
+  }
+
+  #left-leg {
+    transform-origin: 546px 617px;
+  }
+
+  #left-ear {
+    animation: left-ear-sheep 2s ease-in-out infinite;
+    transform-origin: 637px 303px;
+  }
+
+  #right-ear {
+    animation: right-ear-sheep 2s ease-in-out infinite;
+    transform-origin: 326px 328px;
+  }
+}

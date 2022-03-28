@@ -21,7 +21,20 @@ const AVAILABLE_ANIMALS = [
   'redpanda-pastel',
 
   'dog-pomeranian',
+  'dog-labrador-golden',
+
   'wolf',
+  'wolf-wherewolf',
+
+  'raven-albino',
+
+  'sheep-black',
+  'sheep-blue',
+  'sheep-brown',
+  'sheep-dark',
+  'sheep-green',
+  'sheep-knitted',
+  'sheep',
 ];
 
 async function main() {

@@ -1,8 +1,9 @@
+@include ping-pong-animation(tail-dog, 20deg, -40deg);
+
 @include ear-animation(left-ear-dog-pomeranian, 0, 20deg);
 @include ear-animation(right-ear-dog-pomeranian, 0, -25deg);
-@include ping-pong-animation(tail-dog-pomeranian, 20deg, -40deg);
 
-[id="dog-pomeranian"] {
+[id^="dog"] {
   #right-leg {
     transform-origin: 449px 629px;
   }
@@ -11,6 +12,13 @@
     transform-origin: 547px 626px;
   }
 
+  #tail {
+    transform-origin: 525px 561px;
+    animation: tail-dog 1s ease-in-out infinite;
+  }
+}
+
+[id="dog-pomeranian"] {
   #left-ear {
     animation: left-ear-dog-pomeranian 2s ease-in-out infinite;
     transform-origin: 574px 174px;
@@ -19,10 +27,5 @@
   #right-ear {
     animation: right-ear-dog-pomeranian 2s ease-in-out infinite;
     transform-origin: 445px 197px;
-  }
-
-  #tail {
-    transform-origin: 525px 561px;
-    animation: tail-dog-pomeranian 1s ease-in-out infinite;
   }
 }

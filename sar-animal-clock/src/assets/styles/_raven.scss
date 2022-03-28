@@ -1,0 +1,16 @@
+@include ping-pong-animation(tail-raven, 25deg, -25deg);
+
+[id^="raven"] {
+  #tail {
+    transform-origin: 487px 575px;
+    animation: tail-raven 1s ease-in-out infinite;
+  }
+
+  #right-leg {
+    transform-origin: 432px 631px;
+  }
+
+  #left-leg {
+    transform-origin: 553px 626px;
+  }
+}
