@@ -6,7 +6,6 @@
   "homepage": "https://obs-browser-components.cocoacaa.com/",
   "version": "1.0.1",
   "scripts": {
-    "build": "rollup --config",
     "watch": "TS_NODE_PROJECT=\"./build/tsconfig-for-webpack-config.json\" webpack --config ./build/webpack.config.ts --watch",
     "min-svg": "svgo -i ./public/animals/*.svg -o ./public/animals/"
   },
@@ -25,6 +24,8 @@
     "postcss-loader": "^6.2.1",
     "react-dev-utils": "^12.0.0",
     "remove-files-webpack-plugin": "^1.5.0",
+    "sass": "^1.53.0",
+    "sass-loader": "^13.0.2",
     "style-loader": "^3.3.1",
     "svgo": "^2.8.0",
     "terser-webpack-plugin": "^5.3.0",

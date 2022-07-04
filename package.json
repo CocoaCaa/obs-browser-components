@@ -1,12 +1,11 @@
 {
   "name": "obs-browser-components",
   "packageManager": "yarn@3.1.1",
+  "workspaces": ["sar-animal-clock"],
   "scripts": {
     "serve": "serve ./docs"
   },
   "devDependencies": {
-    "sass": "^1.47.0",
-    "sass-loader": "^12.4.0",
     "serve": "^13.0.2"
   }
 }
