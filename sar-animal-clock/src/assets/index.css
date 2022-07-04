@@ -75,6 +75,11 @@ svg {
   animation: cheonsa-hat 2s ease-in-out infinite;
 }
 
+#cheonsa #sunflower {
+  transform-origin: 710px 508px;
+  animation: cheonsa-sunflower 2s ease-in-out infinite;
+}
+
 #clock-text {
   font-family: Rubik-Bold, Rubik, Tahoma-Bold, Tahoma, sans-serif !important;
 }
@@ -192,5 +197,19 @@ svg {
 
   100% {
     transform: translateY(30px);
+  }
+}
+
+@keyframes cheonsa-sunflower {
+  0% {
+    transform: rotate(20deg);
+  }
+
+  50% {
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    transform: rotate(20deg);
   }
 }
