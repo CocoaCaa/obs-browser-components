@@ -24,6 +24,11 @@ Please go to [here](https://obs-browser-components.cocoacaa.com/sar-animal-clock
 
 For example: https://obs-browser-components.cocoacaa.com/sar-animal-clock/?animal=deer
 
+
+`countdown-to-year=<year>`
+
+Switch to countdown mode
+
 - - -
 
 ## Art Details
