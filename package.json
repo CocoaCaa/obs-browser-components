@@ -1,7 +1,9 @@
 {
   "name": "obs-browser-components",
   "packageManager": "yarn@3.1.1",
-  "workspaces": ["sar-animal-clock"],
+  "workspaces": [
+    "sar-animal-clock"
+  ],
   "scripts": {
     "serve": "serve ./docs"
   },
