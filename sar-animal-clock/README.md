@@ -29,6 +29,8 @@ For example: https://obs-browser-components.cocoacaa.com/sar-animal-clock/?anima
 
 Switch to countdown mode
 
+For example: https://obs-browser-components.cocoacaa.com/sar-animal-clock/?animal=skullcat&countdown-to-year=2023
+
 - - -
 
 ## Art Details
