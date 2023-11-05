@@ -41,7 +41,7 @@ const AVAILABLE_ANIMALS = [
 
 async function main() {
   const urlSearchParams = new URLSearchParams(window.location.search);
-  const animal = urlSearchParams.get('animal')?.toLowerCase() ?? 'fox';
+  const animal = urlSearchParams.get('animal')?.toLowerCase() ?? 'cocoacaa-deer';
   const countDownToYear = urlSearchParams.get('countdown-to-year')
     ? Number(urlSearchParams.get('countdown-to-year'))
     : undefined;
