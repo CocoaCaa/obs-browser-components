@@ -35,6 +35,8 @@ const AVAILABLE_ANIMALS = [
   'sheep-green',
   'sheep-knitted',
   'sheep',
+
+  'cocoacaa-deer',
 ];
 
 async function main() {

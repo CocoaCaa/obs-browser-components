@@ -1,0 +1,31 @@
+@include ear-animation(left-ear-deer, 0, -15deg);
+@include ear-animation(right-ear-deer, 0, 20deg);
+
+[id="cocoacaa-deer"] {
+  #right-leg {
+    animation: cocoacaa-deer-right-leg 2s ease-in-out infinite;
+    transform-origin: 568px 706px;
+  }
+
+  #left-leg {
+    animation: cocoacaa-deer-left-leg 2s ease-in-out infinite;
+    transform-origin: 437px 706px;
+  }
+
+  #left-ear {
+    animation: left-ear-deer 2s ease-in-out infinite;
+    transform-origin: 640px 237px;
+  }
+
+  #right-ear {
+    animation: right-ear-deer 2s ease-in-out infinite;
+    transform-origin: 400px 225px;
+  }
+
+  #tail {
+    transform-origin: 412px 669px;
+  }
+}
+
+@include ping-pong-animation(cocoacaa-deer-right-leg, 20deg, -10deg);
+@include ping-pong-animation(cocoacaa-deer-left-leg, -20deg, 10deg);
